@@ -10,4 +10,4 @@ Chapter01
 
 Chapter02
     01. DelegateUse                                 ===> 通过Delegate实现ViewController之间的传值
-    
+    02. SharedInstance                              ===> 通过单例实现ViewController之间的传值
