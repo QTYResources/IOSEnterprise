@@ -7,3 +7,7 @@ iOS-Enterprise.zip                                  ===> 书本配套原始源�
 
 Chapter01
     01. iOSBasicKnowledge                           ===> iOS基础知识
+
+Chapter02
+    01. DelegateUse                                 ===> 通过Delegate实现ViewController之间的传值
+    
