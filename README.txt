@@ -13,3 +13,6 @@ Chapter02
     02. SharedInstance                              ===> 通过单例实现ViewController之间的传值
     03. KVO                                         ===> 通过KVO实现ViewController之间的传值
     04. NotificationUse                             ===> 通过Notification实现ViewController之间的传值
+
+Chapter03
+    01. UseJSONModel                                ===> 使用JSONModel开源库
