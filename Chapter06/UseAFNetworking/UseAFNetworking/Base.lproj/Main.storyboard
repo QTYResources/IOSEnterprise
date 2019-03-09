@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rd1-MO-dya">
+                                <rect key="frame" x="7.5" y="90" width="360" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="NAC-Xu-w7s"/>
+                                    <constraint firstAttribute="width" constant="360" id="PLE-5T-tPt"/>
+                                </constraints>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1jq-L5-BeC">
+                                <rect key="frame" x="48" y="362" width="279" height="2"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rd1-MO-dya" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1t1-MM-oba"/>
+                            <constraint firstItem="1jq-L5-BeC" firstAttribute="top" secondItem="rd1-MO-dya" secondAttribute="bottom" constant="32" id="BXB-ra-d2o"/>
+                            <constraint firstItem="1jq-L5-BeC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L18-Bo-ZHI"/>
+                            <constraint firstItem="rd1-MO-dya" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="V5D-zl-cFf"/>
+                            <constraint firstItem="1jq-L5-BeC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="32" id="cAp-58-Cy7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1jq-L5-BeC" secondAttribute="trailing" constant="32" id="e2t-Se-lag"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="rd1-MO-dya" id="mrS-5r-jZk"/>
+                        <outlet property="progressView" destination="1jq-L5-BeC" id="X6y-N7-1HU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

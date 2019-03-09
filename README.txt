@@ -24,4 +24,6 @@ Chapter04
 
 Chapter05
     01. UseBlock                                    ===> 通过Block实现ViewController之间的传值
-    
+
+Chapter06
+    01. UseAFNetworking                             ===> 使用AFNetworking第三方库
